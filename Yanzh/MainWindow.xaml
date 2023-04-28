@@ -1,0 +1,34 @@
+﻿<Window x:Class="Yanzh.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Yanzh"
+        mc:Ignorable="d"
+        Title="邮箱验证" Height="300" Width="500">
+    <Grid>
+        <!--竖-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--横-->
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="邮箱：" Grid.Column="1" VerticalAlignment="Center" Margin="45,0,0,0"></TextBlock>
+        <TextBox x:Name="textBox1" Grid.Column="1" Height="30" Grid.ColumnSpan="2" Margin="80,0,27,0" VerticalContentAlignment="Center"></TextBox>
+        <TextBlock Text="验证码：" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="35,0,0,0"></TextBlock>
+        <TextBox x:Name="textBox2" Grid.Column="1" Grid.Row="1" Height="30" Grid.ColumnSpan="2" Margin="83,0,27,0" VerticalContentAlignment="Center"></TextBox>
+        <Button Click="Button_Click" Name="button1" Grid.Column="1" Grid.Row="2" Width="70" Height="40" Content="发送"></Button>
+        <!--<Button Click="Button_Click" Name="timer1" Grid.Column="0" Grid.Row="2" Width="70" Height="40">发送</Button>-->
+        <Button Click="Button2_Click" Name="button2" Grid.Column="2" Grid.Row="2" Width="70" Height="40">验证</Button>
+        
+    </Grid>
+</Window>

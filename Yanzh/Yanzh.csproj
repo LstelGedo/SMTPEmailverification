@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Authors>芜湖</Authors>
+    <PackageIcon>f10676a4b4944aaaafdb7640760b6a30.jpg</PackageIcon>
+    <PackageIconUrl />
+    <Description>1</Description>
+    <Copyright>1</Copyright>
+    <RepositoryUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ROG\Pictures\f10676a4b4944aaaafdb7640760b6a30.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
