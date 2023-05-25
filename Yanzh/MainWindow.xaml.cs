@@ -75,7 +75,7 @@ namespace Yanzh
 
                 //创建互联网安全证书（邮箱的授权码）
                 //授权码在开启SMTP后就会提供
-                NetworkCredential cred = new NetworkCredential("XXXXXXXXX@qq.com", "rsurqtjwdynohjff");
+                NetworkCredential cred = new NetworkCredential("XXXXXXXXX@qq.com", "rsuwdynohjff");
 
                 //证书绑定到服务器对象以便服务器验证
                 //也就是获取发件人的邮箱，和邮箱的授权码来验证
