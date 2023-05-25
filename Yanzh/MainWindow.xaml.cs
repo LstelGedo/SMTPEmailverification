@@ -45,7 +45,7 @@ namespace Yanzh
             //创建邮件发送人
             //授权码需要在邮箱验证后获取
             //授权码在开启SMTP后就会提供
-            MailAddress mail1 = new MailAddress("lietcork@qq.com");
+            MailAddress mail1 = new MailAddress("XXXXXXXXX@qq.com");
 
             try
             {
